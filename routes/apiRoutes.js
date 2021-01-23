@@ -1,5 +1,5 @@
 // Connect routes to journal data.
-var journalData = require("../data/journalData");
+var journalData = require("./db/data/journalData");
 
 // Routing
 module.exports = function (app) {
